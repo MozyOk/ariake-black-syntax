@@ -5,9 +5,9 @@
 // General colors
 @syntax-text-color:            @syntax-fg;
 @syntax-cursor-color:          @syntax-accent;
-@syntax-selection-color:       lighten(@syntax-background-color, 10%);
+@syntax-selection-color:       lighten(@syntax-background-color, 5%);
 @syntax-selection-flash-color: @syntax-accent;
-@syntax-background-color:      @syntax-bg;
+@syntax-background-color:      lighten(@syntax-bg, 10%);
 
 // Guide colors
 @syntax-wrap-guide-color:          @syntax-guide;
@@ -22,7 +22,7 @@
 @syntax-gutter-text-color:                @syntax-gutter;
 @syntax-gutter-text-color-selected:       @syntax-fg;
 @syntax-gutter-background-color:          @syntax-bg; // unused
-@syntax-gutter-background-color-selected: lighten(@syntax-bg, 2%);
+@syntax-gutter-background-color-selected: lighten(@syntax-bg, 15%);
 
 // Git colors - For git diff info. i.e. in the gutter
 @syntax-color-renamed:  hsl(208, 100%, 60%);
